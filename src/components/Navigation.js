@@ -14,7 +14,7 @@ class Navigation extends React.Component{
     render(){
         return (
             <div>
-                <h1>CPR</h1>
+                <h1>CPR - Charlie's Cellphone Repair</h1>
                 <nav>
                     <Button color="secondary" active={true}>Home</Button>
                     <Button color="secondary" active={true} onClick={this.toggle.bind(this)}>About</Button>
