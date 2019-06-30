@@ -2,7 +2,7 @@ import React from 'react';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import Example from "./components/Example";
-
+import CellCard from "./components/CellCard";
 import './App.css';
 
 function App() {
@@ -12,7 +12,10 @@ function App() {
         <Navigation />
       </header>
 
-      <Example />   
+      <Example />  
+
+      <CellCard /> 
+
       <footer classname="App-footer">
         <Footer />
       </footer>
