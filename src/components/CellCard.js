@@ -1,13 +1,13 @@
 import React from 'react';
-import { Card, CardImg, CardText, CardBody,
+import { Container, Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button } from 'reactstrap';
-import images from './images.png';
+import phone from "../images/Cellphone.png";
 
 const CellCard = (props) => {
   return (
-    <div>
+    <Container>
       <Card>
-        <CardImg top width="100%" src={images} alt="Card image cap" />
+        <img src={phone} alt="Card image cap" />
         <CardBody>
           <CardTitle>Card title</CardTitle>
           <CardSubtitle>Card subtitle</CardSubtitle>
@@ -15,7 +15,7 @@ const CellCard = (props) => {
           <Button>Button</Button>
         </CardBody>
       </Card>
-    </div>
+    </Container>
   );
 };
 
