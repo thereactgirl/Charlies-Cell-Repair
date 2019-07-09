@@ -22,12 +22,11 @@ export default class Example extends React.Component {
       <div>
         <Nav tabs>
           <NavItem>
-            <NavLink href="#" active>Link</NavLink>
+            <NavLink href="#" active>Check Out New Inventory</NavLink>
           </NavItem>
           <Dropdown nav isOpen={this.state.dropdownOpen} toggle={this.toggle}>
             <DropdownToggle nav caret>
-              Dropdown
-            </DropdownToggle>
+              Settings</DropdownToggle>
             <DropdownMenu>
               <DropdownItem header>Header</DropdownItem>
               <DropdownItem disabled>Action</DropdownItem>

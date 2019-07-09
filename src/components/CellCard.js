@@ -9,10 +9,11 @@ const CellCard = (props) => {
       <Card>
         <img src={phone} alt="Card image cap" />
         <CardBody>
-          <CardTitle>Card title</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-          <Button>Button</Button>
+          <CardTitle>Glass Phone OF the future</CardTitle>
+          <CardSubtitle>This will enventually be real.</CardSubtitle>
+          <CardText>So where do you see youself in 5 years? Is it holding this Phone? Yeah me too.
+          </CardText>
+          <Button>Dream on, man...</Button>
         </CardBody>
       </Card>
     </Container>
