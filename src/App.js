@@ -4,7 +4,7 @@ import Footer from './components/Footer';
 import Example from "./components/Example";
 import CellCard from "./components/CellCard";
 import './App.css';
-
+commit changes
 function App() {
   return (
     <div className="App">
